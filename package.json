@@ -1,0 +1,24 @@
+{
+  "name": "level-query-benchmark",
+  "version": "1.0.0",
+  "description": "A benchmark of different methods of querying a data in level-down",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Uchida-Psztyc",
+  "license": "ISC",
+  "dependencies": {
+    "@pawel-up/data-mock": "^0.1.7",
+    "leveldown": "^6.1.0",
+    "levelup": "^5.1.1",
+    "subleveldown": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/leveldown": "^4.0.3",
+    "@types/levelup": "^5.1.0",
+    "@types/subleveldown": "^4.1.1",
+    "typescript": "^4.6.2"
+  }
+}
